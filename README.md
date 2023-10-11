@@ -16,29 +16,45 @@ This repository is designed to provide a solid starting point for working with a
 2.  Install the required dependencies using `npm install`.
 3.  Start the development server using `npm run dev`.
 
-## Navigating the Repository
+## Overview
 
-### App Component (`src/App.jsx`)
+This boilerplate is structured to give you a hands-on experience and understanding of some of the advanced hooks in React. Each hook is demonstrated with practical examples to showcase its utility and implementation in real-world applications.
 
-The `App.jsx` is the main component of the application. Here's a breakdown of its structure:
+### useRef Hook
 
-- Reactive Data: Demonstrates the use of React hooks (`useState`) to manage state. For instance, there's a counter and a name changer to showcase how reactive data works in React.
-- Static Data: This data is used to populate the content of the app. It includes headings, descriptions, and examples.
-- Component Rendering: Various components from the `components` folder are rendered here to showcase their usage.
+- Purpose: Manage and retain state without causing re-render of the component.
+- Examples:
+  - [Dom Elements Example](https://github.com/Technigo/react-advanced-hooks-boiler-plate/blob/main/src/components/useRef/Examples/DomElementsExample.jsx): Demonstrates how to reference DOM elements.
+  - [Managing Instances Example](https://github.com/Technigo/react-advanced-hooks-boiler-plate/blob/main/src/components/useRef/Examples/ManagingInstancesExample.jsx): Illustrates managing instances with `useRef`.
+  - [Preserving Values Example](https://github.com/Technigo/react-advanced-hooks-boiler-plate/blob/main/src/components/useRef/Examples/PreservingValuesExample.jsx): Showcases preserving values between renders without causing re-renders.
 
-### Components (`src/components/`)
+### useReducer Hook
 
-This folder contains multiple React components. Let's dive into each:
+- Purpose: Manage state logic in components with a reducer function for more predictable state transitions.
+- Examples:
+  - [Basic State Example](https://github.com/Technigo/react-advanced-hooks-boiler-plate/blob/main/src/components/useReducer/examples/BasicStateExample.jsx): Basic implementation of `useReducer`.
+  - [Complex State Example](https://github.com/Technigo/react-advanced-hooks-boiler-plate/blob/main/src/components/useReducer/examples/ComplexStateExample.jsx): Handling complex state logic with `useReducer`.
 
-1.  Logos (`Logos.jsx`): Displays the logos of Vite, React, and Technigo. Each logo is linked to its respective official website.
+### useLayoutEffect Hook
 
-2.  StaticComponent (`StaticComponent.jsx`): A simple static component with no reactive data or JS logic. It contains an H4 and a paragraph element.
+- Purpose: Perform synchronous, side-effects that need to be executed before the DOM is painted.
+- Examples:
+  - [Example One](https://github.com/Technigo/react-advanced-hooks-boiler-plate/blob/main/src/components/useLayoutEffect/examples/ExampleOne.jsx): Basic usage of `useLayoutEffect`.
+  - [Example Two](https://github.com/Technigo/react-advanced-hooks-boiler-plate/blob/main/src/components/useLayoutEffect/examples/ExampleTwo.jsx): Another practical example of `useLayoutEffect`.
 
-3.  PropComponent (`PropComponent.jsx`): Demonstrates the use of props in React. It displays a small bio based on the props passed to it. For instance, it can tell if a person likes pineapple pizza or not!
+### useMemo Hook
 
-4.  PropComponentPropTypes (`PropComponentPropTypes.jsx`): Similar to the `PropComponent`, but with added PropTypes for type checking. It ensures that the component receives the right type of data for its props. If you want to see a PropTypes error, try removing the `name` prop in the `App.jsx` file and check the console.
+- Purpose: Memoize computationally expensive calculations and preserve object references.
+- Examples:
+  - [Heavy Computation Example](https://github.com/Technigo/react-advanced-hooks-boiler-plate/blob/main/src/components/useMemo/examples/HeavyComputationExample.jsx): Utilizing `useMemo` for heavy computations.
+  - [Rendering Lists Example](https://github.com/Technigo/react-advanced-hooks-boiler-plate/blob/main/src/components/useMemo/examples/RenderingListsExample.jsx): Efficiently rendering lists with `useMemo`.
 
-5.  ComponentWithCss (`ComponentWithCss/Component.jsx`): This component showcases how to organize styles with components. It has its own CSS file (`style.css`) in the same folder. It also explains why we use `className` in React instead of `class`.
+### Custom Hooks
+
+- Purpose: Reuse stateful logic and side effects across components.
+- Examples:
+  - [useFetchData](https://github.com/Technigo/react-advanced-hooks-boiler-plate/blob/main/src/hooks/useFetchData.jsx): Custom hook for fetching data.
+  - [useGeolocation](https://github.com/Technigo/react-advanced-hooks-boiler-plate/blob/main/src/hooks/useGeolocation.jsx): Custom hook for accessing geolocation.
 
 ---
 
