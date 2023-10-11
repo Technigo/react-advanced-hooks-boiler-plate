@@ -1,10 +1,10 @@
- <img src="/src/assets/boiler-plate.svg" alt="Project Banner Image">
+ <img src="/src/assets/hooks-bp.svg" alt="Project Banner Image">
 
-# Vite + React Technigo Boilerplate
+# React Advanced Hooks Boilerplate
 
-Welcome to the `react-vite-boiler-plate`!
+Welcome to the `React Advanced Hooks Boilerplate`!
 
-This boilerplate is designed to give you a head start in your React projects, with a focus on understanding the structure and components. As a student of Technigo, you'll find this guide helpful in navigating and utilizing the repository.
+This repository is designed to provide a solid starting point for working with advanced React hooks, including useRef, useReducer, useLayoutEffect, useMemo, and custom hooks. Navigate through various examples and understand the practical implementation of these hooks in a React application.
 
 ## Demo
 
