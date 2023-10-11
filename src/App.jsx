@@ -7,7 +7,7 @@ import { CustomHooksDistributive } from "./components/customHooks/CustomHooksDis
 export const App = () => {
   // Staticc Data Inyected through {} reference
   const appContent = {
-    heading: "Technigo - Third Party Libraries Boilerplate",
+    heading: "Technigo - Advanced Hooks Boilerplate",
     reactivedataExampleOne:
       "Within this repo you can find a working example of the following hooks: useRef, useMemo, useLayoutEffect, useReducer and some custom hooks 😉",
   };
