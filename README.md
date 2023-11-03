@@ -4,7 +4,7 @@
 
 Welcome to the `React Advanced Hooks Boilerplate`!
 
-This repository is designed to provide a solid starting point for working with advanced React hooks, including useRef, useReducer, useLayoutEffect, useMemo, and custom hooks. Navigate through various examples and understand the practical implementation of these hooks in a React application.
+This repository is designed to provide a solid starting point for working with advanced React hooks, including useRef, useReducer, useLayoutEffect, and custom hooks. Navigate through various examples and understand the practical implementation of these hooks in a React application.
 
 ## Demo
 
@@ -41,13 +41,6 @@ This boilerplate is structured to give you a hands-on experience and understandi
 - Examples:
   - [Example One](https://github.com/Technigo/react-advanced-hooks-boiler-plate/blob/main/src/components/useLayoutEffect/examples/ExampleOne.jsx): Basic usage of `useLayoutEffect`.
   - [Example Two](https://github.com/Technigo/react-advanced-hooks-boiler-plate/blob/main/src/components/useLayoutEffect/examples/ExampleTwo.jsx): Another practical example of `useLayoutEffect`.
-
-### useMemo Hook
-
-- Purpose: Memoize computationally expensive calculations and preserve object references.
-- Examples:
-  - [Heavy Computation Example](https://github.com/Technigo/react-advanced-hooks-boiler-plate/blob/main/src/components/useMemo/examples/HeavyComputationExample.jsx): Utilizing `useMemo` for heavy computations.
-  - [Rendering Lists Example](https://github.com/Technigo/react-advanced-hooks-boiler-plate/blob/main/src/components/useMemo/examples/RenderingListsExample.jsx): Efficiently rendering lists with `useMemo`.
 
 ### Custom Hooks
 
